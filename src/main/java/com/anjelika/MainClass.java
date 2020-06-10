@@ -13,10 +13,9 @@ public class MainClass {
 
         p1.marry(p2);
         p3.marry(p4);
-        p6.divorce();
-        p6.marry(p4);
+        p2.divorce();
+        p3.marry(p1);
         p6.marry(p1);
         p2.marry(p5);
-        p2.divorce();
     }
 }
